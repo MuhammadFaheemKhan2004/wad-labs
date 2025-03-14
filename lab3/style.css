@@ -5,26 +5,31 @@
 }
 
 .nav a {
-    margin-left: 20%;
+    margin-left: 12%;
     text-decoration: none;
+    font-size: 30px;
+}
+
+:root {
+    --margin-left: 20px
 }
 
 .image img {
 
     width: 100px;
     height: 100px;
-    margin-left: 570px;
+    margin-left: var(--margin-left);
     border-radius: 50px;
 
 
 }
 
 a:visited {
-    color: rgb(203, 213, 203);
+    color: rgb(111, 218, 111);
 }
 
 a:link {
-    color: blue;
+    color: rgb(123, 123, 176);
 }
 
 a:hover {
@@ -38,7 +43,7 @@ a:hover {
 }
 
 .footer {
-    background-color: rgb(205, 87, 134);
+    background-color: rgb(112, 64, 74);
     color: aliceblue;
 }
 
@@ -47,7 +52,7 @@ a:hover {
 }
 
 #fig2 {
-    margin-left: 530px;
+    margin-left: var(--margin-left)
 }
 
 #card {
@@ -55,8 +60,15 @@ a:hover {
     text-decoration: solid;
     box-shadow: 30px;
     border-radius: 30px;
-    width: 800px;
+    width: 300px;
     align-items: center;
-    margin-left: 190px;
+    justify-content: center;
+    margin-left: 450px;
+    text-align: center;
 
+}
+
+.bio p {
+
+    margin-left: var(--margin-left)
 }
