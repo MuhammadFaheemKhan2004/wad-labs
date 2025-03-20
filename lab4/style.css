@@ -1,0 +1,114 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 700px;
+    margin-left: 250px;
+
+
+
+}
+
+.header {
+
+    background-color: #003366;
+
+
+}
+
+.nav a {
+    margin-left: 12%;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: rgb(241, 213, 231);
+    color: rgb(3, 11, 18);
+}
+
+.footer p {
+    text-decoration: black;
+}
+
+
+.TABLE {
+    display: inline-block;
+    width: 35%;
+    margin: auto;
+
+}
+
+#table {
+    background-color: rgb(227, 210, 244);
+}
+
+#form {
+    background-color: rgb(227, 210, 244);
+}
+
+#About {
+    background-color: #E3F2FD;
+}
+
+.image img {
+
+    width: 100px;
+    height: 30px;
+    margin-left: var(--margin-left);
+    border-radius: 30px;
+    background-color: azure;
+
+
+}
+
+.image {
+    display: inline-block;
+    width: 120px;
+}
+
+.links {
+    display: inline-block;
+    width: 80%;
+}
+
+
+td {
+    border: 1px solid black;
+
+
+    padding: 10px;
+
+}
+
+
+tr {
+    background-color: antiquewhite;
+}
+
+tr:hover {
+    background-color: rgb(173, 173, 231);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(188, 227, 230);
+}
+
+label {
+    margin-top: 30px;
+}
+
+input {
+    block-size: auto;
+}
+
+a:visited {
+    color: rgb(111, 218, 111);
+}
+
+a:link {
+    color: rgb(123, 123, 176);
+}
+
+a:hover {
+    color: red;
+}
